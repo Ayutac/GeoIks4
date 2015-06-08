@@ -16,6 +16,7 @@
 #include <QGLWidget>
 #include <GL/gl.h>
 #include <GL/glu.h>
+#include "GeoXOutput.h"
 
 
 const Vector4f GLPlotterCurveStyle::COLOR_MATERIAL_RED         = makeVector4f(229,  28,  35, 255) / 255.0f;
