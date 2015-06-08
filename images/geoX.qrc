@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>036_16x16.png</file>
+        <file>038_16x16.png</file>
+        <file>100px-Nuvola_Green_Plus.svg.png</file>
+        <file>103px-Light_bulb_icon.svg.png</file>
+        <file>400px-Broom_icon.svg.png</file>
+        <file>ArrowDropDownSmall.png</file>
+        <file>ArrowDropDownVerySmall.png</file>
+        <file>ArrowUpSmall.png</file>
+        <file>Camera.png</file>
+        <file>cascadeWindows.png</file>
+        <file>ClassHelp.png</file>
+        <file>combobox_16x16.png</file>
+        <file>combobox_26x26.png</file>
+        <file>copy_16x16.png</file>
+        <file>cut_16x16.png</file>
+        <file>delete_16x16.png</file>
+        <file>Directory.png</file>
+        <file>DotDotDot.png</file>
+        <file>down_arrow.png</file>
+        <file>down_bottom_arrow.png</file>
+        <file>exit.png</file>
+        <file>help1_16x16.png</file>
+        <file>help2_16x16.png</file>
+        <file>info_16x16.png</file>
+        <file>logo.png</file>
+        <file>memory.png</file>
+        <file>Method.png</file>
+        <file>new.png</file>
+        <file>Object.png</file>
+        <file>open.png</file>
+        <file>open_16x16.png</file>
+        <file>paste_16x16.png</file>
+        <file>redo_16x16.png</file>
+        <file>repeat_16x16.png</file>
+        <file>save_16x16.png</file>
+        <file>saveas_16x16.png</file>
+        <file>saveHS.png</file>
+        <file>saveHS_small.png</file>
+        <file>SelectPoint.png</file>
+        <file>small_class.png</file>
+        <file>small_class_abstract.png</file>
+        <file>tileWindows.png</file>
+        <file>undo_16x16.png</file>
+        <file>up_arrow.png</file>
+        <file>up_top_arrow.png</file>
+        <file>wirecube.png</file>
+        <file>x_smaller.png</file>
+        <file>Play.png</file>
+        <file>Stop.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

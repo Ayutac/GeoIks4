@@ -1,0 +1,239 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>IDWMappingPanel</class>
+ <widget class="QWidget" name="IDWMappingPanel" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>120</width>
+    <height>98</height>
+   </rect>
+  </property>
+  <property name="font" >
+   <font>
+    <family>MS Shell Dlg 2</family>
+    <pointsize>7</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+    <underline>false</underline>
+    <strikeout>false</strikeout>
+   </font>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <property name="margin" >
+    <number>0</number>
+   </property>
+   <property name="spacing" >
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame" >
+     <property name="frameShape" >
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow" >
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" >
+      <property name="margin" >
+       <number>3</number>
+      </property>
+      <property name="spacing" >
+       <number>4</number>
+      </property>
+      <item row="0" column="1" >
+       <widget class="QDoubleSpinBox" name="dsbScale" >
+        <property name="prefix" >
+         <string/>
+        </property>
+        <property name="suffix" >
+         <string>%</string>
+        </property>
+        <property name="decimals" >
+         <number>3</number>
+        </property>
+        <property name="maximum" >
+         <double>10000</double>
+        </property>
+        <property name="minimum" >
+         <double>0.001</double>
+        </property>
+        <property name="singleStep" >
+         <double>25</double>
+        </property>
+        <property name="value" >
+         <double>100</double>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QDoubleSpinBox" name="dsbOffset" >
+        <property name="prefix" >
+         <string/>
+        </property>
+        <property name="suffix" >
+         <string/>
+        </property>
+        <property name="decimals" >
+         <number>5</number>
+        </property>
+        <property name="maximum" >
+         <double>1e+50</double>
+        </property>
+        <property name="minimum" >
+         <double>-1e+50</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.1</double>
+        </property>
+        <property name="value" >
+         <double>0</double>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1" >
+       <widget class="QDoubleSpinBox" name="dsbGamma" >
+        <property name="prefix" >
+         <string/>
+        </property>
+        <property name="suffix" >
+         <string/>
+        </property>
+        <property name="decimals" >
+         <number>2</number>
+        </property>
+        <property name="maximum" >
+         <double>10</double>
+        </property>
+        <property name="minimum" >
+         <double>0.01</double>
+        </property>
+        <property name="singleStep" >
+         <double>0.05</double>
+        </property>
+        <property name="value" >
+         <double>1</double>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="label" >
+        <property name="maximumSize" >
+         <size>
+          <width>45</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font" >
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>Scale:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="label_2" >
+        <property name="maximumSize" >
+         <size>
+          <width>45</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font" >
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>Offset:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="label_3" >
+        <property name="maximumSize" >
+         <size>
+          <width>45</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font" >
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="text" >
+         <string>Gamma:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2" >
+       <widget class="Line" name="line" >
+        <property name="orientation" >
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="2" >
+       <widget class="QCheckBox" name="cbAuto" >
+        <property name="font" >
+         <font>
+          <family>MS Shell Dlg 2</family>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+         </font>
+        </property>
+        <property name="toolTip" >
+         <string>set range according to min/max value</string>
+        </property>
+        <property name="text" >
+         <string>automatic</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <tabstops>
+  <tabstop>dsbScale</tabstop>
+  <tabstop>dsbOffset</tabstop>
+  <tabstop>dsbGamma</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
